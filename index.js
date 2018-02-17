@@ -13,6 +13,6 @@ function tailsNeverFails() {
   while(coinFlip >= 0.5) {
     coinFlip;
     counter++;
-  }  
+  }
   return `You got ${counter} tails in a row!`;
 }

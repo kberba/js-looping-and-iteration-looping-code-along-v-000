@@ -7,18 +7,18 @@ function printBadges(badges) {
   return badges;
 }
 
-function maybeTrue () {
-  return Math.random() >= 0.5;
-}
+// function maybeTrue () {
+//   return Math.random() >= 0.5;
+// }
 
 function tailsNeverFails() {
   let counter = 0;
-  while (maybeTrue()) {
+  while (Math.random() >= 0.5) {
     counter++;
-    maybeTrue();
+    Math.random();
   }
   return (`You got ${counter} tails in a row!`);
 }
 
 
-tailsNeverFails();
+//tailsNeverFails();

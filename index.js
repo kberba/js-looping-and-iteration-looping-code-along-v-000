@@ -7,12 +7,20 @@ function printBadges(badges) {
   return badges;
 }
 
+function maybeTrue () {
+  return Math.random() >= 0.5;
+}
+
+
+
 function tailsNeverFails() {
   let counter = 0;
-  let coinFlip = Math.random();
-  while(coinFlip >= 0.5) {
-    coinFlip;
+  while (maybeTrue()) {
     counter++;
+    maybeTrue();
   }
-  return `You got ${counter} tails in a row!`;
+  return (`You got ${} tails in a row!`);
 }
+
+
+//tailsNeverFails();

@@ -7,18 +7,18 @@ function printBadges(badges) {
   return badges;
 }
 
-
-function tailsNeverFails() {
-  let counter = 0;
-  function maybeTrue () {
-    return Math.random() >= 0.5;
-  }
-  while (maybeTrue()) {
-    counter++;
-    maybeTrue();
-  }
-  return (`You got ${} tails in a row!`);
-}
+// function maybeTrue () {
+//   return Math.random() >= 0.5;
+// }
+// 
+// function tailsNeverFails() {
+//   let counter = 0;
+//   while (maybeTrue()) {
+//     counter++;
+//     maybeTrue();
+//   }
+//   return (`You got ${} tails in a row!`);
+// }
 
 
 //tailsNeverFails();

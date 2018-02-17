@@ -14,8 +14,8 @@ function printBadges(badges) {
 function tailsNeverFails() {
   let counter = 0;
   function maybeTrue () {
-  return Math.random() >= 0.5;
-}
+    return Math.random() >= 0.5;
+  }
   while (maybeTrue()) {
     counter++;
   }

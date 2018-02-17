@@ -7,18 +7,6 @@ function printBadges(badges) {
   return badges;
 }
 
-function coinFlip() {
-  let flip = Math.random();
-  if (flip > 0.5) {
-    return true;
-  } else {
-    return false;
-  }
-}
-
 function tailsNeverFails() {
-  let flipping = coinFlip();
-  while (flipping === true) {
-    coinFlip();
-  }
+  
 }

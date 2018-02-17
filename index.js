@@ -21,4 +21,4 @@ function tailsNeverFails() {
 }
 
 
-//tailsNeverFails();
+tailsNeverFails();
